@@ -1,0 +1,42 @@
+import '../models/splurt_round.dart';
+
+const List<String> splurtCategories = [
+  'An animal',
+  'Something in a kitchen',
+  'A movie title',
+  'A country',
+  'A fruit',
+  'A color',
+  'A job or profession',
+  'A sport',
+  'A city',
+  'A type of vehicle',
+  'A drink',
+  'A body part',
+  'A piece of clothing',
+  'A school subject',
+  'A superhero',
+  'A dessert',
+  'A musical instrument',
+  'A holiday',
+  'A tool',
+  'A type of weather',
+];
+
+const List<SplurtRule> splurtRules = [
+  SplurtRule.startsWith('B'),
+  SplurtRule.startsWith('S'),
+  SplurtRule.startsWith('C'),
+  SplurtRule.startsWith('M'),
+  SplurtRule.startsWith('T'),
+  SplurtRule.startsWith('P'),
+  SplurtRule.startsWith('A'),
+  SplurtRule.endsWith('E'),
+  SplurtRule.endsWith('S'),
+  SplurtRule.endsWith('N'),
+  SplurtRule.containsLetter('R'),
+  SplurtRule.containsLetter('O'),
+  SplurtRule.exactLength(4),
+  SplurtRule.exactLength(5),
+  SplurtRule.minLength(6),
+];

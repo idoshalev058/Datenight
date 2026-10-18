@@ -1,0 +1,42 @@
+<svg viewBox="0 0 192 192" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="192" height="192" fill="#0F0D14"/>
+
+  <!-- Fox body -->
+  <ellipse cx="96" cy="110" rx="50" ry="55" fill="#FF6B35"/>
+
+  <!-- Fox head -->
+  <circle cx="96" cy="70" r="45" fill="#FF8A3D"/>
+
+  <!-- Fox face white bottom half -->
+  <ellipse cx="96" cy="95" rx="35" ry="20" fill="#FFFFFF"/>
+
+  <!-- Left ear -->
+  <polygon points="65,35 45,10 55,40" fill="#FF8A3D"/>
+  <polygon points="60,35 50,18 54,38" fill="#FFD23F"/>
+
+  <!-- Right ear -->
+  <polygon points="127,35 147,10 137,40" fill="#FF8A3D"/>
+  <polygon points="132,35 142,18 138,38" fill="#FFD23F"/>
+
+  <!-- Snout -->
+  <ellipse cx="96" cy="85" rx="25" ry="20" fill="#FFD23F"/>
+
+  <!-- Left eye -->
+  <circle cx="80" cy="60" r="6" fill="#000000"/>
+  <circle cx="81" cy="59" r="2" fill="#FFFFFF"/>
+
+  <!-- Right eye -->
+  <circle cx="112" cy="60" r="6" fill="#000000"/>
+  <circle cx="113" cy="59" r="2" fill="#FFFFFF"/>
+
+  <!-- Nose -->
+  <polygon points="96,80 92,88 100,88" fill="#000000"/>
+
+  <!-- Mouth -->
+  <path d="M 96 88 Q 90 92 85 90" stroke="#000000" stroke-width="2" fill="none"/>
+  <path d="M 96 88 Q 102 92 107 90" stroke="#000000" stroke-width="2" fill="none"/>
+
+  <!-- Tail -->
+  <path d="M 60 140 Q 30 160 40 180" stroke="#FF6B35" stroke-width="20" fill="none" stroke-linecap="round"/>
+</svg>
